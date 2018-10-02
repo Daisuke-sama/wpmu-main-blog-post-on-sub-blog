@@ -17,7 +17,7 @@ You just request a page from a sub-blog, and in case of it absences on the sub-b
 post with the same **path** in the main blog. If it is found, then it will be rendered under the sub-blog theme.
 
 ## Features
-1. It works for a single post request only, and doesn't work when the list of post is requested.
+1. It works for a single post, or post meta, request only, and doesn't work when the list of post is requested.
 1. Independent on themes of sub-blogs and main blog.
 1. Loads only the Page post type.
 1. A full post with its meta will be rendered, i.e. author, comments, etc.
@@ -54,3 +54,12 @@ Eventually, it would be great to find a contributor, who could share his/her tho
 development, at least. 
 
 Piece!
+
+
+##Changelog
+
+###1.0.1
+- added fetching of a post meta from a specified blog
+
+###1.0.0
+- fetching of posts from a specified blog
